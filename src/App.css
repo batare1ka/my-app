@@ -1,0 +1,32 @@
+ul li {
+  list-style-type: georgian;
+}
+.app-wrapper {
+  margin: auto;
+  display: grid;  /* pervie topomki klassa budut vesti seabea kak gridi elementi// esti eshe  display: inline-grid*/
+  height: 1200px;
+  grid-template-areas: 
+  "h h"
+  "n c";
+
+  grid-template-rows: 60px 1fr;     /*visota    60px  40px  40px sozdast 3 riada  , fit-content(100px) colonca razshireatsea sama do 100 px*/
+   grid-template-columns: 2fr 10fr;  /*visota  mojno tac  minmax(150px, 1fr) minimalinaia i maximalin shirina*/
+  /* grid-gap: 10px; */
+}
+.app-wrapper-content {
+  
+    grid-area: c;
+    background-color: cornflowerblue;
+    }
+    .content img{
+    height: 300px;
+    width: 1600px;
+    
+    
+
+}
+
+
+
+
+

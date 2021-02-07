@@ -1,0 +1,22 @@
+.nav{
+    grid-area: n;
+    background-color: burlywood;
+    padding: 20px;
+    
+    
+}
+.item a {
+    color: white;
+    text-decoration: none;
+    font-size: 130%;
+}
+
+.item a.activeLink{
+    color:  gold;
+}
+.item .itemfriends {
+    position: absolute;
+    top: 30%;
+    font-size: 30px;
+    
+}
